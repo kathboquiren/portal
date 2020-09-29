@@ -18,6 +18,3 @@ app.route('/game_tbl/')
 
 app.get('/status', (req, res) => res.send('Working!'));
 
-// Port 8080 for Google App Engine
-app.set('port', process.env.PORT || 3000);
-app.listen(3000);
